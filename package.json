@@ -29,6 +29,7 @@
     "install": "cmake-js compile",
     "build": "tsc -p ./src",
     "build:watch": "tsc -w -p ./src",
+    "prepare": "tsc -p ./src",
     "prepublishOnly": "yarn build"
   },
   "files": [
